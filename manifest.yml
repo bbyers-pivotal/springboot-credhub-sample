@@ -1,0 +1,6 @@
+---
+applications:
+  - name: credhub-sample
+    services: [mycredhub]
+    buildpack: java_buildpack_offline
+    path: target/credhub-0.0.1-SNAPSHOT.jar
